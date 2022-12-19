@@ -1,5 +1,5 @@
-const fooBar = (maxNum) => {
-    for (let i = 1; i <= maxNum; i++) {
+const fooBar = (n) => {
+    for (let i = 1; i <= n; i++) {
         let output = ""
 
         if (i % 3 === 0) output += 'Foo'
